@@ -9,11 +9,12 @@ import {
     faPhoneAlt,
     faEnvelope,
     faMapMarkerAlt,
-    faLock
+    faLock,
+    faCodeBranch
   } from "@fortawesome/free-solid-svg-icons";
 
 const Icons = () => {
-    return library.add(faTrash, faSignOutAlt, faEdit, faSpinner, faPlusCircle, faPhoneAlt, faEnvelope, faMapMarkerAlt, faLock);
+    return library.add(faTrash, faSignOutAlt, faEdit, faSpinner, faPlusCircle, faPhoneAlt, faEnvelope, faMapMarkerAlt, faLock, faCodeBranch);
 };
 
 export default Icons;

@@ -59,13 +59,13 @@ export default class PortfolioContainer extends Component {
     if (this.state.isLoading) {
         return <div>Loading...</div>;
     }
-
+ 
 
     return (
       <div className="homepage-wrapper">
         <div className="filter-links">
-          <button className="btn" onClick={() => this.handleFilter("eCommerce")}>
-            eCommerce
+          <button className="btn" onClick={() => this.handleFilter("Websites")}>
+            Websites
           </button>
           <button className="btn" onClick={() => this.handleFilter("Scheduling")}>
             Scheduling

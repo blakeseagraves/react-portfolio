@@ -27,7 +27,7 @@ export default function() {
                             <FontAwesomeIcon icon="envelope" />
                         </div>
                         <div className="text">
-                            blake.seagraves@gmail.com
+                            blake.seagraves2@gmail.com
                         </div>
                     </div>
                     <div className="bullet-point-group">
@@ -36,6 +36,14 @@ export default function() {
                         </div>
                         <div className="text">
                             Chicago, Illinois
+                        </div>
+                    </div>
+                    <div className="bullet-point-group">
+                        <div className="icon">
+                            <FontAwesomeIcon icon="code-branch" />
+                        </div>
+                        <div className="text">
+                            github.com/blakeseagraves
                         </div>
                     </div>
                 </div>
